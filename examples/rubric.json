@@ -1,0 +1,26 @@
+{
+  "criteria": [
+    {
+      "id": "coverage",
+      "description": "Documentation covers every public feature.",
+      "weight": 4,
+      "floor": 0
+    },
+    {
+      "id": "accuracy",
+      "description": "Documented behaviour matches the shipped release.",
+      "weight": 4,
+      "floor": 5
+    },
+    {
+      "id": "upkeep",
+      "description": "Docs were updated alongside recent releases.",
+      "weight": 2,
+      "floor": 0
+    }
+  ],
+  "pass_score": 70,
+  "margin": 10,
+  "tolerance": 1,
+  "flip_confirmations": 2
+}
